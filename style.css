@@ -1,0 +1,82 @@
+body {background: #7474BF;
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);
+    background: linear-gradient(to right, #348AC7, #7474BF);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.mycol-1,
+.mycol-2 {
+    border: 1px solid rgb(9, 1, 85);
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: rgba(253, 253, 253, 0.56) 0px 40px 90px 8px;
+    padding: 90px 50px;
+    height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mycol-2 {
+    border-radius: 0px 10px 10px 0px;
+    padding: 50px 30px;
+}
+h2{
+    font-weight: 700;
+    font-size: 38px;
+    
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.my-btn-1{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 50px; 
+    border-radius: 50px;
+    background-color: #7c7ccf44;
+    border: 0px;
+
+}
+.my-btn-2{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 50px; 
+    background-color: #0c0c68;
+    border: 1px solid black;
+    width: 80%;
+
+}
+::placeholder{
+    font-size: 18px;
+}
+form{
+    width: 100%;
+}
+input{
+    width: 80%;
+    height: 7vh;
+    margin: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.error-messages{
+    color: red;
+  }
